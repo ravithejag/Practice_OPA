@@ -6,6 +6,10 @@ namespace OPA.Abstraction
 {
     public interface IOrder
     {
-        Task<Response> GeneratePackingSlip();
+        /// <summary>
+        /// Generate Packing Slip based on the order types
+        /// </summary>
+        /// <returns></returns>
+        Task<Response> ProcessOrder();
     }
 }

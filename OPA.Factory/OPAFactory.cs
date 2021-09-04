@@ -1,8 +1,13 @@
-﻿using System;
+﻿using OPA.Abstraction;
+using System;
 
 namespace OPA.Factory
 {
-    public class OPAFactory
+    /// <summary>
+    /// The Creator Abstract Class
+    /// </summary>
+    public abstract class OPAFactory
     {
+        public abstract IOrder GetOrderPaymentType(int orderType);
     }
 }

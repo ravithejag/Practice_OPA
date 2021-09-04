@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OPA.Abstraction\OPA.Abstraction.csproj" />
+    <ProjectReference Include="..\OPA.Model\OPA.Model.csproj" />
+  </ItemGroup>
+
 </Project>
