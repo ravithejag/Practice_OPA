@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPA.Business", "..\OPA.Busi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPA.Abstraction", "..\OPA.Abstraction\OPA.Abstraction.csproj", "{F42BF619-817E-4991-AF93-FC6EA1881410}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPA.API", "..\OPA.API\OPA.API.csproj", "{9D4E3B24-8059-48E4-94AC-2D090A6F6DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F42BF619-817E-4991-AF93-FC6EA1881410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42BF619-817E-4991-AF93-FC6EA1881410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F42BF619-817E-4991-AF93-FC6EA1881410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4E3B24-8059-48E4-94AC-2D090A6F6DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4E3B24-8059-48E4-94AC-2D090A6F6DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4E3B24-8059-48E4-94AC-2D090A6F6DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4E3B24-8059-48E4-94AC-2D090A6F6DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace OPA.Business
 {
-    public class Membership : IOrder, IEmailManager
+    public class Membership : IOrder
     {
+        private readonly IEmailManager emailManager;
+        //public Membership(IEmailManager emailManager)
+        //{
+        //    this.emailManager = emailManager;
+        //}
         public Task<Response> ProcessOrder()
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> SendMail(EmailDto emailDto)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

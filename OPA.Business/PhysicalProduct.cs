@@ -7,8 +7,19 @@ namespace OPA.Business
 {
     public class PhysicalProduct : IOrder
     {
+        private readonly IAgent agent;
+
+        public PhysicalProduct()
+        {
+
+        }
+        public PhysicalProduct(IAgent agent)
+        {
+            this.agent = agent;
+        }
         public Task<Response> ProcessOrder()
         {
+            agent.PayCommission();
             throw new NotImplementedException();
         }
     }

@@ -9,6 +9,17 @@ namespace OPA.Business
 {
    public class Book : IOrder
     {
+        private readonly IAgent agent;
+
+        public Book()
+        {
+
+        }
+        public Book(IAgent agent)
+        {
+            this.agent = agent;
+        }
+
         public Task<Response> ProcessOrder()
         {
             throw new NotImplementedException();
