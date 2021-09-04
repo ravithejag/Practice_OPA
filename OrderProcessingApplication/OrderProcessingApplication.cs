@@ -2,7 +2,7 @@
 
 namespace OrderProcessingApplication
 {
-    class Program
+    class OrderProcessingApplication
     {
         static void Main(string[] args)
         {

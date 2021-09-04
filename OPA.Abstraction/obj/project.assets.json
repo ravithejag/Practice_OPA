@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
-      "projectName": "OrderProcessingApplication",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OrderProcessingApplication\\OrderProcessingApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Abstraction\\OPA.Abstraction.csproj",
+      "projectName": "OPA.Abstraction",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Abstraction\\OPA.Abstraction.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OrderProcessingApplication\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
