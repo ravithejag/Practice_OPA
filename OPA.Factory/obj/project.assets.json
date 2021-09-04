@@ -15,6 +15,20 @@
           "bin/placeholder/OPA.Abstraction.dll": {}
         }
       },
+      "OPA.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OPA.Abstraction": "1.0.0",
+          "OPA.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OPA.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OPA.Business.dll": {}
+        }
+      },
       "OPA.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -33,6 +47,11 @@
       "path": "../OPA.Abstraction/OPA.Abstraction.csproj",
       "msbuildProject": "../OPA.Abstraction/OPA.Abstraction.csproj"
     },
+    "OPA.Business/1.0.0": {
+      "type": "project",
+      "path": "../OPA.Business/OPA.Business.csproj",
+      "msbuildProject": "../OPA.Business/OPA.Business.csproj"
+    },
     "OPA.Model/1.0.0": {
       "type": "project",
       "path": "../OPA.Model/OPA.Model.csproj",
@@ -41,7 +60,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "OPA.Abstraction >= 1.0.0"
+      "OPA.Abstraction >= 1.0.0",
+      "OPA.Business >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -73,6 +93,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Abstraction\\OPA.Abstraction.csproj": {
               "projectPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Abstraction\\OPA.Abstraction.csproj"
+            },
+            "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Business\\OPA.Business.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Business\\OPA.Business.csproj"
             }
           }
         }

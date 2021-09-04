@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OPA.Abstraction\OPA.Abstraction.csproj" />
+    <ProjectReference Include="..\OPA.Business\OPA.Business.csproj" />
   </ItemGroup>
 
 </Project>

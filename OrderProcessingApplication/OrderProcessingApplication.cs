@@ -1,4 +1,6 @@
-﻿using OPA.Model;
+﻿using OPA.Abstraction;
+using OPA.Factory;
+using OPA.Model;
 using System;
 using System.Collections.Generic;
 
@@ -8,10 +10,32 @@ namespace OrderProcessingApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("******************************************************");
+            Console.WriteLine("Welcome to the Order Processing Application");
+            Console.WriteLine("******************************************************");
+            Console.WriteLine("Please select the Appropriate Order type");
+
+            var orderTypes = GetOrderTypes();
+
+            foreach (var item in orderTypes)
+            {
+                Console.WriteLine(String.Format("{0} . {1}", item.Id, item.Description));
+            }
+
+            var orderType = Console.ReadLine();
+            var data = string.Empty;
+            if ((bool)(orderTypes.Find(x => x.Id == Convert.ToInt32(orderType))?.IsDetailsRequired))
+            {
+                Console.WriteLine("Please Enter the Video Name");
+                data = Console.ReadLine();
+            }
+
+            OPAFactory oPAFactory = new OPAConcreteFactory();
+            IOrder order = oPAFactory.GetOrderPaymentType(Convert.ToInt32(orderType),data);
+            Console.WriteLine(order.ProcessOrder());
         }
 
-        public List<Order> GetOrderTypes()
+        public static List<Order> GetOrderTypes()
         {
             return new List<Order>
             {

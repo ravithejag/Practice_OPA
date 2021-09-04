@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Business.deps.json
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Business.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Business.pdb
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Abstraction.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Model.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Abstraction.pdb
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\bin\Debug\netcoreapp3.1\OPA.Model.pdb
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.csproj.CopyComplete
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.Business\obj\Debug\netcoreapp3.1\OPA.Business.pdb

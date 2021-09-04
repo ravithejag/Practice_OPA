@@ -8,6 +8,6 @@ namespace OPA.Factory
     /// </summary>
     public abstract class OPAFactory
     {
-        public abstract IOrder GetOrderPaymentType(int orderType);
+        public abstract IOrder GetOrderPaymentType(int orderType, string data);
     }
 }
