@@ -28,3 +28,6 @@ C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp
 C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp3.1\OPA.Model.pdb
 C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp3.1\OPA.Business.pdb
 C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\obj\Debug\netcoreapp3.1\OPA.API.csproj.CopyComplete
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\source\repos\ravithejag\Practice_OPA\OPA.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll

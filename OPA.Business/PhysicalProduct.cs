@@ -19,7 +19,7 @@ namespace OPA.Business
         }
         public Task<Response> ProcessOrder()
         {
-            agent.PayCommission();
+            //agent.PayCommission();
             throw new NotImplementedException();
         }
     }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "p91JA/P+G0O8rd5v01ivSv9qE4V2trA5JzQJS62zxG3HbH3zELIV9bOJ77uSkOMm8Ei+Auk7zi0SBGYu7nmuXg==",
+  "dgSpecHash": "J2W7Fw3r1nzgg//Hj0LFGBqC4TS4JcK8poJKc2pI3ToxcA0soHt5AYLE4Me3gsTkKjFRfcagncHSVrf+dwomCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ravithejag\\Practice_OPA\\OPA.Business\\OPA.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -11,14 +11,14 @@ namespace OPA.Business
     {
         private readonly IAgent agent;
 
-        public Book()
-        {
+        //public Book()
+        //{
 
-        }
-        public Book(IAgent agent)
-        {
-            this.agent = agent;
-        }
+        //}
+        //public Book(IAgent agent)
+        //{
+        //    this.agent = agent;
+        //}
 
         public Task<Response> ProcessOrder()
         {
